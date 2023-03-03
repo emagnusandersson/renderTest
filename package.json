@@ -1,0 +1,26 @@
+{
+  "type": "module",
+  "name": "rendertest",
+  "version": "0.0.0",
+  "description": "rendertest",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Magnus Andersson",
+  "license": "BSD-2-Clause",
+  "dependencies": {
+    "ioredis": "5.3.1",
+    "dotenv": "16.0.3"
+  },
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/"
+  },
+  "engines": {
+    "node": ">=14.8",
+    "npm": ""
+  }
+}
